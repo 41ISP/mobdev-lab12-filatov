@@ -1,4 +1,3 @@
-/* CSS переменные Telegram */
 :root {
   --tg-theme-bg-color: #ffffff;
   --tg-theme-text-color: #000000;
@@ -9,89 +8,9 @@
   --tg-theme-secondary-bg-color: #f0f0f0;
 }
 
-/* CSS переменные Telegram */
-:root {
-  --tg-theme-bg-color: #ffffff;
-  --tg-theme-text-color: #000000;
-  --tg-theme-hint-color: #999999;
-  --tg-theme-link-color: #2481cc;
-  --tg-theme-button-color: #2481cc;
-  --tg-theme-button-text-color: #ffffff;
-  --tg-theme-secondary-bg-color: #f0f0f0;
-
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color: var(--tg-theme-text-color);
-  background-color: var(--tg-theme-bg-color);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* Ссылки */
-a {
-  font-weight: 500;
-  color: var(--tg-theme-link-color);
-  text-decoration: none;
-}
-a:hover {
-  opacity: 0.8;
-}
-
-/* Основное тело */
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: "Segoe UI", Roboto, sans-serif;
   background-color: var(--tg-theme-bg-color);
   color: var(--tg-theme-text-color);
-}
-
-/* Заголовки */
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  color: var(--tg-theme-text-color);
-}
-
-/* Кнопки */
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: var(--tg-theme-button-color);
-  color: var(--tg-theme-button-text-color);
-  cursor: pointer;
-  transition: border-color 0.25s, opacity 0.25s;
-}
-button:hover {
-  border-color: var(--tg-theme-button-text-color);
-  opacity: 0.9;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-/* Для светлой темы */
-@media (prefers-color-scheme: light) {
-  :root {
-    color: var(--tg-theme-text-color);
-    background-color: var(--tg-theme-bg-color);
-  }
-  a:hover {
-    opacity: 0.7;
-  }
-  button {
-    background-color: var(--tg-theme-button-color);
-  }
 }
