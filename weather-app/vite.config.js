@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'mobdev-lab11-filatov'
+  base: 'mobdev-lab12-filatov'
 })
