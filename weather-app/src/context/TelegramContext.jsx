@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import WebApp from '@twa-dev/sdk';
 import App from '../App';
 
-const TelegramContext = createContext({});
+const TelegramContext = createContext();
 
 export const useTelegram = () => {
   const context = useContext(TelegramContext);
